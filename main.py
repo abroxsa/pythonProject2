@@ -1,7 +1,4 @@
-text = input()
-total = 0
-while text != 'stop':
-    num = int(text)
-    total += num
-    text = input()
-print('Сумма чисел равна', total)
+n =[]
+for i in range(1,27):
+    n.append(chr(96 + i)*i)
+print(n)

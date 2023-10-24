@@ -27,5 +27,5 @@ button.click()
 # search.send_keys('Git')
 # search.send_keys(Keys.RETURN)
 
-time.sleep(5)
+time.sleep(10)
 driver.close()
